@@ -1,5 +1,33 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "General Sans";
+  src: url("./assets/fonts/GeneralSans-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("./assets/fonts/GeneralSans-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("./assets/fonts/GeneralSans-Semibold.otf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("./assets/fonts/GeneralSans-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+* {
+  font-family: "General Sans";
+}
+
 @theme {
   --color-background: 0 0% 100%;
   --color-foreground: 222.2 84% 4.9%;
@@ -54,4 +82,12 @@
 body {
   background-color: hsl(var(--color-background));
   color: hsl(var(--color-foreground));
+}
+
+.bg-image {
+  background: radial-gradient(
+    168.54% 59.74% at 50% 28.55%,
+    rgba(238, 233, 228, 0) 0%,
+    #eee9e4 100%
+  );
 }
