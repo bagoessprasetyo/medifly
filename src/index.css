@@ -24,7 +24,7 @@
   font-weight: 700;
 }
 
-*{
+* {
   font-family: "General Sans";
 }
 
@@ -82,4 +82,12 @@
 body {
   background-color: hsl(var(--color-background));
   color: hsl(var(--color-foreground));
+}
+
+.bg-image {
+  background: radial-gradient(
+    168.54% 59.74% at 50% 28.55%,
+    rgba(238, 233, 228, 0) 0%,
+    #eee9e4 100%
+  );
 }
